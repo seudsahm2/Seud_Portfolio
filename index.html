@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seud Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="./static/fontawesome-free-6.5.2-web/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./responsive-navigation-bar-main/assets/css/styles.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="./responsive-navigation-bar-main/assets/images/favicon.webp"
+      type="image/x-icon"
+    />
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav containers">
+        <div class="nav__data">
+          <a href="#" class="logo">
+            <i class="ri-code-s-slash-line"></i>
+
+            <i class="fas fa-code" style="color: #e0f; display: inline"></i>
+            Seud
+          </a>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="fas fa-bars nav__toggle-menu" id="nav-open"></i>
+            <i class="fas fa-times nav__toggle-close hidden" id="nav-close"></i>
+          </div>
+        </div>
+
+        <!--=============== NAV MENU ===============-->
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li>
+              <a href="#home" class="nav__link">Home</a>
+            </li>
+
+            <li>
+              <a href="#about" class="nav__link">About Me</a>
+            </li>
+
+            <li>
+              <a href="#services" class="nav__link">My Services</a>
+            </li>
+
+            <li>
+              <a href="#Allskills" class="nav__link">My Skills</a>
+            </li>
+
+            <li>
+              <a href="#projects" class="nav__link">Latest Projcts</a>
+            </li>
+
+            <li>
+              <a href="#contact" class="nav__link">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section class="#home" id="home">
+        <div class="home-content">
+          <div class="contain-txt">
+            <h3>Hello It's Me</h3>
+            <h1>Seud Abdulsemed</h1>
+      
+            <h3>And I'm a</h3>
+            <p>
+              Backend Python Django developer with junior-level experience.
+              <br />My expertise includes <h1 id="skills" class="skills"></h1>
+            </p>
+            <div class="contact-icons">
+              <a href="https://t.me/seud2"
+                ><i class="fab fa-telegram" style="color: rgb(65, 139, 236); font-size:40px"></i
+              ></a>
+    
+              <a href="https://twitter.com/seudabdulsemed"
+                ><i class="fab fa-twitter" style="color: rgb(13, 166, 236); font-size:40px"></i
+              ></a>
+    
+              <a href="https://github.com/seudsahm2"
+                ><i class="fab fa-github" style="color: rgb(255, 255, 255); font-size:40px"></i
+              ></a>
+    
+              <a href="https://linkedin.com/in/seud-abdulsemed-1a39a5245"
+                ><i class="fab fa-linkedin" style="color: rgb(14, 70, 255); font-size:40px;"></i
+              ></a>
+            </div>
+      
+            <a href="#about" class="btn-box">More About Me</a>
+          </div>
+        </div>
+      </section>
+
+    <section class="#about" id="about">
+      <div class="about-img">
+        <img class="img" src="./static/images/Front_picture_6.jpg" alt="" />
+      </div>
+      <div class="about-text">
+        <h2>About<span>Me</span></h2>
+        <h4>Full stack Developer</h4>
+        <p>
+          Hello! I’m Seud, a passionate Django developer and Computer Science student from St. Mary’s University, Addis Ababa, Ethiopia. I specialize in building robust backend systems and dynamic web applications. With expertise in frameworks like Django and Express, I have developed complex projects, including e-commerce platforms, API integrations, and real-time task management using Celery and Redis.
+
+          I’m constantly striving to solve real-world problems through clean, efficient, and scalable code. Beyond backend development, I enjoy working with tools like React, Docker, and Git, ensuring smooth workflows and deployment processes. My dedication to learning and growth drives me to stay updated with the latest technologies, blending my academic knowledge with practical experiences.
+          
+          When I’m not coding, I enjoy exploring new technologies, reading, and collaborating with others to create impactful solutions. My goal is to contribute to innovative projects that make a difference while continuously enhancing my skills.
+          
+          Let’s build something amazing together!
+        </p>
+      </div>
+    </section>
+
+    <section class="#services" id="services">
+      <div class="services" id="services">
+        <div class="container">
+          <h1 class="sub-title">My <span> Services</span></h1>
+          <div class="service-list">
+            <div>
+              <i class="fas fa-blog" style="color: #01fbff;"></i>
+              <h2>Advanced Blog Platform</h2>
+              <p>
+                A feature-rich blog platform developed with Django, offering advanced functionalities like RSS feeds, comment management, and dynamic category-based filtering. The platform emphasizes user engagement and easy content management.
+              </p>
+              <a href="#" class="read">Learn More</a>
+            </div>
+            <!-- rgb(255, 0, 212) -->
+            <div>
+              <i class="fas fa-shopping-cart" style="color: #01fbff;"></i>
+              <h2>Scalable E-Commerce Backend</h2>
+              <p>
+                A robust e-commerce system built with Django, featuring product management, order tracking, and a recommendation engine. It integrates Celery for task handling and Redis for caching, ensuring a seamless shopping experience.
+              </p>
+              <a href="#" class="read">Learn More</a>
+            </div>
+            
+            <div>
+              <i class="fas fa-pizza-slice" style="color: #01fbff;"></i>
+              <h2>Pizza Selling Web & Mobile App</h2>
+              <p>
+                A complete web and mobile application for a pizza-selling business, developed using Django for the backend, React for the web frontend, and React Native for mobile. It includes features like real-time order tracking and a user-friendly interface.
+              </p>
+              <a href="#" class="read">Learn More</a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <h1 class="Allskills sub-title">My <span>Skills</span></h1>
+    <section class="#Allskills" id="Allskills">
+      <div class="container1" id="skills">
+        <h1 class="heading1">Technical skills</h1>
+        <div class="technical-bars">
+          <div class="bar">
+            <i
+              style="color: #c95d2e"
+              class="fab fa-html5"
+              aria-hidden="true"
+            ></i>
+            <div class="info">
+              <span>HTML</span>
+            </div>
+            <div class="progress-line html">
+              <span></span>
+            </div>
+          </div>
+
+          <div class="bar">
+            <i
+              style="color: #147bbc"
+              class="fab fa-css3-alt"
+              aria-hidden="true"
+            ></i>
+            <div class="info">
+              <span>CSS</span>
+            </div>
+            <div class="progress-line css">
+              <span></span>
+            </div>
+          </div>
+          <div class="bar">
+            <i style="color: #b0bc1e" class="fab fa-js" aria-hidden="true"></i>
+            <div class="info">
+              <span>Javascript</span>
+            </div>
+            <div class="progress-line javascript">
+              <span></span>
+            </div>
+          </div>
+
+          <div class="bar">
+            <i
+              style="color: #c32ec9"
+              class="fab fa-python"
+              aria-hidden="true"
+            ></i>
+            <div class="info">
+              <span>Python</span>
+            </div>
+            <div class="progress-line python">
+              <span></span>
+            </div>
+          </div>
+
+          <div class="bar">
+            <i
+              style="color: #69bcbc"
+              class="fab fa-react"
+              aria-hidden="true"
+            ></i>
+            <div class="info">
+              <span>React</span>
+            </div>
+            <div class="progress-line react">
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container1">
+        <h1 class="heading1" id="proffesional">Proffessional Skills</h1>
+        <div class="radial-bars">
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+            </svg>
+            <div class="percentage">90%</div>
+            <div class="text">creativity</div>
+          </div>
+
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+            </svg>
+            <div class="percentage">80%</div>
+            <div class="text">communication</div>
+          </div>
+
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+            </svg>
+            <div class="percentage">97%</div>
+            <div class="text">problem-solving</div>
+          </div>
+
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+            </svg>
+            <div class="percentage">85%</div>
+            <div class="text">team work</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="#projects" id="projects">
+      <div id="portfolio" id="project">
+        <div class="main-text" id="project">
+          <h2>Latest<span>Project</span></h2>
+          <div class="portfolio-content">
+            <div class="row">
+              <img src="./static/images/Django_blog.jpg" alt="" />
+              <div class="layer">
+                <h4>Advanced Blog System</h4>
+                <p>
+                  A robust e-commerce system built with Django, featuring product management, order tracking, and a recommendation engine. It integrates Celery for task handling and Redis for caching, ensuring a seamless shopping experience.
+                </p>
+                
+                <a href="https://github.com/seudsahm2/blogApp"
+                  ><i class="fa fa-external-link" style="color: #01fbff;"></i
+                ></a>
+              </div>
+            </div>
+
+            <div class="row">
+              <img src="./static/images/Django_ecommerce.jpg" alt="" />
+              <div class="layer">
+                <h4>Scalable E-Commerce Backend</h4>
+                <p>
+                  A robust e-commerce system built with Django, featuring product management, order tracking, and a recommendation engine. It integrates Celery for task handling and Redis for caching, ensuring a seamless shopping experience.
+                </p>
+
+                <a href="https://github.com/seudsahm2/storefront3"
+                  ><i class="fa fa-external-link" style="color: #01fbff;"></i
+                ></a>
+              </div>
+            </div>
+
+            <div class="row">
+              <img src="./static/images/Django_pizza.jpg" alt="" />
+              <div class="layer">
+                <h4>Pizza Selling Web & Mobile App</h4>
+                <p>
+                  A complete web and mobile application for a pizza-selling business, developed using Django for the backend, React for the web frontend, and React Native for mobile. It includes features like real-time order tracking and a user-friendly interface.
+                </p>
+
+                <a href="https://github.com/seudsahm2/Pizza"
+                  ><i class="fa fa-external-link" style="color: #01fbff;"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="#contact" id="contact">
+      <div class="contact-text">
+        <h2>Contact<span>Me</span></h2>
+        <h4>Let's work together</h4>
+        <p>
+          Whether you’re looking for a passionate developer to bring your ideas to life or need a skilled collaborator for your next project, I’d love to hear from you. Let’s connect and create something amazing together!
+        </p>
+        <div class="contact-list">
+          <li>
+            <i class="fas fa-paper-plane" style="color: #01fbff;"></i>
+            seudsahm1@gmail.com
+          </li>
+          <li><i class="fas fa-phone" style="color: #01fbff;"></i> +251966143454</li>
+        </div>
+        <div class="contact-icons">
+          <a href="https://t.me/seud2"
+            ><i class="fab fa-telegram" style="color: rgb(65, 139, 236); font-size:40px"></i
+          ></a>
+      
+          <a href="https://twitter.com/seudabdulsemed"
+            ><i class="fab fa-twitter" style="color: rgb(13, 166, 236); font-size:40px"></i
+          ></a>
+      
+          <a href="https://github.com/seudsahm2"
+            ><i class="fab fa-github" style="color: rgb(255, 255, 255); font-size:40px"></i
+          ></a>
+      
+          <a href="https://linkedin.com/in/seud-abdulsemed-1a39a5245"
+            ><i class="fab fa-linkedin" style="color: rgb(14, 70, 255); font-size:40px;"></i
+          ></a>
+        </div>
+      </div>
+      
+
+      <div class="contact-form">
+        <form
+          action="mailto:seudsahm1l@gmail.com"
+          method="post"
+          enctype="text/plain"
+        >
+          <input
+            type="text"
+            name="name"
+            placeholder="Enter Your Name"
+            required
+          />
+
+          <input
+            type="email"
+            name="email"
+            placeholder="Enter Your Email"
+            required
+          />
+
+          <input type="text" name="subject" placeholder="Enter Your Subject" />
+
+          <textarea
+            name="message"
+            cols="40"
+            rows="10"
+            placeholder="Enter Your Message"
+          ></textarea>
+          <input type="submit" value="Submit" class="send" />
+        </form>
+      </div>
+    </section>
+
+    <div class="last-text">
+      <p>Developed By Seud Abdulsemed &copy; 2024</p>
+    </div>
+
+    <a href="#" class="top"><i class="fas fa-arrow-up"></i></a>
+
+    <script src="./script/script.js"></script>
+    <script src="./responsive-navigation-bar-main/assets/js/main.js"></script>
+  </body>
+</html>
